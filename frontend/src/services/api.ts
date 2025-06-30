@@ -1,8 +1,8 @@
 // API service utilities
 export class ApiService {
-  private newsBaseUrl = import.meta.env.WEATHER_API_ENDPOINT || '';
-  private weatherBaseUrl = import.meta.env.WEATHER_API_ENDPOINT || '';
-  private apiKey = import.meta.env.NEWS_API_KEY || '';
+  private newsBaseUrl = import.meta.env.VITE_WEATHER_API_ENDPOINT || '';
+  private weatherBaseUrl = import.meta.env.VITE_WEATHER_API_ENDPOINT || 'https://vanahub-weather.onrender.com/api/v1/weather';
+  private apiKey = import.meta.env.VITE_NEWS_API_KEY || '';
 
   // Generic fetch wrapper with error handling
   private async fetchWithErrorHandling(url: string, options: RequestInit = {}): Promise<any> {
