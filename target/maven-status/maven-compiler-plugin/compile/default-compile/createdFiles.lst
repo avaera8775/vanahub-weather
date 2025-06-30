@@ -1,0 +1,8 @@
+info\vanahub\weather\controller\FF11WeatherController.class
+info\vanahub\weather\service\FF11WeatherService$WeatherInfo.class
+info\vanahub\weather\filter\RateLimitFilter.class
+info\vanahub\weather\service\FF11WeatherService$WeatherForecast.class
+info\vanahub\weather\service\FF11WeatherService$VanaDate.class
+info\vanahub\weather\service\FF11WeatherService$WeatherData.class
+info\vanahub\weather\service\FF11WeatherService.class
+info\vanahub\weather\WeatherApplication.class

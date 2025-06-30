@@ -1,0 +1,17 @@
+info\vanahub\weather\service\FF11WeatherServiceTest.class
+info\vanahub\weather\service\FF11WeatherServiceTest$WeatherPatternConsistencyTests.class
+info\vanahub\weather\controller\FF11WeatherControllerTest.class
+info\vanahub\weather\controller\FF11WeatherControllerTest$ErrorHandlingTests.class
+info\vanahub\weather\controller\FF11WeatherControllerTest$AvailableZonesEndpointTests.class
+info\vanahub\weather\controller\FF11WeatherControllerTest$WeatherForDayEndpointTests.class
+info\vanahub\weather\controller\FF11WeatherControllerTest$PerformanceTests.class
+info\vanahub\weather\service\FF11WeatherServiceTest$WeatherForDayTests.class
+info\vanahub\weather\controller\FF11WeatherControllerTest$ZonesByWeatherEndpointTests.class
+info\vanahub\weather\service\FF11WeatherServiceTest$CurrentWeatherTests.class
+info\vanahub\weather\service\FF11WeatherServiceTest$AvailableZonesTests.class
+info\vanahub\weather\controller\FF11WeatherControllerTest$WeatherForecastEndpointTests.class
+info\vanahub\weather\service\FF11WeatherServiceTest$VanaDateTests.class
+info\vanahub\weather\service\FF11WeatherServiceTest$WeatherForecastTests.class
+info\vanahub\weather\controller\FF11WeatherControllerTest$ApiResponseFormatTests.class
+info\vanahub\weather\controller\FF11WeatherControllerTest$CurrentDateEndpointTests.class
+info\vanahub\weather\controller\FF11WeatherControllerTest$CurrentWeatherEndpointTests.class

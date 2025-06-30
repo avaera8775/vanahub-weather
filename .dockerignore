@@ -1,0 +1,7 @@
+target/*
+!target/quarkus-app/
+!target/quarkus-app/**
+
+**/node_modules
+
+**/.git
