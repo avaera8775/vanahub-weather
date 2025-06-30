@@ -21,7 +21,7 @@ export class ApiService {
 
       return await response.json()
     } catch (error) {
-      //console.error('API request failed:', error)
+      console.error('API request failed:', error)
       throw error
     }
   }
@@ -99,7 +99,7 @@ export class ApiService {
       const data = await this.fetchWithErrorHandling(`${this.weatherBaseUrl}/zones`)
       return data || []
     } catch (error) {
-      //console.error('Error fetching weather zones:', error)
+      console.error('Error fetching weather zones:', error)
       // Fallback zones
       return [
         'Jugner_Forest', 'La_Theine_Plateau', 'Rolanberry_Fields',
@@ -118,7 +118,7 @@ export class ApiService {
       const data = await this.fetchWithErrorHandling(url)
       return data || { days: [] }
     } catch (error) {
-      //console.error('Error fetching weather forecast:', error)
+      console.error('Error fetching weather forecast:', error)
       return { days: [] }
     }
   }
@@ -128,7 +128,7 @@ export class ApiService {
       const data = await this.fetchWithErrorHandling(`${this.weatherBaseUrl}/date`)
       return data
     } catch (error) {
-      //console.error('Error fetching current Vana date:', error)
+      console.error('Error fetching current Vana date:', error)
       return null
     }
   }
